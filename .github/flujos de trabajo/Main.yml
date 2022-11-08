@@ -42,7 +42,7 @@ jobs:
           haxelib --quiet install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
-          haxelib --quiet install flixel-tools
+          haxelib install actuate
           haxelib --quiet install flixel-ui
           haxelib --quiet install hscript
           haxelib --quiet install flixel-addons
